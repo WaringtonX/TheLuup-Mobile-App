@@ -1,0 +1,12 @@
+drawable-mdpi/ic_mic.png;drawable-mdpi/ic_mic.png
+drawable-xhdpi/ic_mic.png;drawable-xhdpi/ic_mic.png
+drawable-xxhdpi/ic_mic.png;drawable-xxhdpi/ic_mic.png
+layout/chatbar_layout.axml;layout/chatbar_layout.xml
+mipmap-hdpi/blue_circle.png;mipmap-hdpi/blue_circle.png
+mipmap-xxhdpi/blue_circle.png;mipmap-xxhdpi/blue_circle.png
+mipmap-xxhdpi/input_send.png;mipmap-xxhdpi/input_send.png
+values/color.xml;values/color.xml
+drawable/button_selector.xml;drawable/button_selector.xml
+drawable/input.9.png;drawable/input.9.png
+drawable-hdpi/ic_mic.png;drawable-hdpi/ic_mic.png
+values/attrs.xml;values/attrs.xml

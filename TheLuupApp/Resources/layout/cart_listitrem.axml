@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:background="?android:attr/selectableItemBackground"
+	 android:padding="10dp">
+
+	 <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+		    android:background="#0d0d0d" 
+            android:orientation="vertical">
+
+		<android.support.v7.widget.CardView
+			android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+			android:background="#0d0d0d" 
+			android:padding="10dp">
+
+			<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+			android:background="#0d0d0d" 	
+            android:padding="10dp">
+
+				
+			<RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+				 <TextView
+            android:id="@+id/foodnames"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginTop="3dp"
+            android:layout_toLeftOf="@+id/right"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"				
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:text="Big Mack" />
+
+
+		  <android.support.design.widget.FloatingActionButton
+			android:id="@+id/deletfoods"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="18dp"
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true"
+			android:scaleType="center"
+			android:elevation="0dp"
+            app:elevation="0dp"
+			app:fabSize="mini"
+			app:backgroundTint="@color/colorPrimaryDark"
+			android:tint="@color/colorPrimary"
+			android:src="@drawable/baseline_delete_24" />
+
+
+			</RelativeLayout>
+
+            <TextView
+            android:id="@+id/foodDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_marginRight="10dp"
+			android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Mouthwatering perfection starts with two 100% pure beef patties and special Big Mac® sauce sandwiched between a sesame seed bun. Its topped with pickles, shredded lettuce, onions and cheese for a taste like no other. Served with fries and a drink"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14dp" />
+				<RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+				 <TextView
+            android:id="@+id/foodQuantity"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+			android:layout_marginRight="10dp"
+			android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+			android:textStyle="bold" 
+			android:gravity="center"
+			android:background="@drawable/buttonshape2"
+            android:text="1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/white"
+            android:textSize="15dp" />
+
+					
+        <TextView
+            android:id="@+id/foodprices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+     	    android:layout_marginRight="18dp"
+			android:layout_alignParentRight="true"
+            android:maxLines="1"
+						 android:layout_marginTop="8dp"
+            android:maxWidth="200dp"
+            android:text="R50.30"
+						android:textStyle="bold" 
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#ff6f00"
+            android:textSize="17dp" />
+			
+					</RelativeLayout>
+
+			</LinearLayout>
+
+
+		  
+
+		</android.support.v7.widget.CardView>
+
+	 </LinearLayout>
+
+
+</LinearLayout>

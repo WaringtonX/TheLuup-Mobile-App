@@ -1,0 +1,15 @@
+int attr end_color 0x7f040001
+int attr orientation 0x7f040002
+int attr start_color 0x7f040003
+int id BL_TR 0x7f0c0001
+int id BOTTOM_TOP 0x7f0c0002
+int id BR_TL 0x7f0c0003
+int id LEFT_RIGHT 0x7f0c0004
+int id RIGHT_LEFT 0x7f0c0005
+int id TL_BR 0x7f0c0006
+int id TOP_BOTTOM 0x7f0c0007
+int id TR_BL 0x7f0c0008
+int[] styleable GradientLayout { 0x7f040001, 0x7f040002, 0x7f040003 }
+int styleable GradientLayout_end_color 0
+int styleable GradientLayout_orientation 1
+int styleable GradientLayout_start_color 2
